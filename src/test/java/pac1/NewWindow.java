@@ -34,6 +34,7 @@ public class NewWindow {
 			
 			
 			
+			
 				driver.switchTo().newWindow(WindowType.WINDOW);
 				
 			
