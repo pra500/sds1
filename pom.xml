@@ -1,0 +1,48 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>maven1</groupId>
+  <artifactId>maven1</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+    <dependencies>
+        <!-- Selenium Java (latest stable is usually best) -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>	
+            <artifactId>selenium-java</artifactId>
+            <version>4.20.0</version>
+        </dependency>
+        <!-- ChromeDriver (matching Chrome 139) -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>4.20.0</version>
+        </dependency>
+        <!-- WebDriverManager for ease (auto-manages correct chromedriver binary version) -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.8.0</version>
+        </dependency>
+        <!-- JUnit for testing purposes (optional) -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.10.2</version>
+            <scope>test</scope>
+        </dependency>
+                
+        
+        
+            <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.11.0</version>
+    <scope>test</scope>
+</dependency>
+
+    </dependencies>
+    
+    
+    
+</project>
