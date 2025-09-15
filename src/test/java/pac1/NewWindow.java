@@ -31,7 +31,9 @@ public class NewWindow {
 			driver.get("https://demoqa.com/browser-windows"); 
 							
 			
-							
+			
+			
+			
 			
 			
 				driver.switchTo().newWindow(WindowType.WINDOW);
